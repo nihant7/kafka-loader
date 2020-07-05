@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/kafka")
+//Controller
 public class KafkaController {
     private final Producer producer;
     @Autowired
